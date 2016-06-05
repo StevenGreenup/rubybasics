@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+    <meta charset="utf-8">
+    <title></title>
+
+
+<link rel="stylesheet" href="master.css" media="screen" title="no title" charset="utf-8">
+
+<html>
+
+  <body>
+
+<div class="whole">
+
+<div class="top">
+  <h1>PLANET EXPRESS LOGS</h1>
+<br>
+          <h1>Total revenue generated $536895.0</h1>
+<br>
+<h4>Totals for each planet</h4>
+
+<table style="width:40%" table align="center">
+      <tr>
+        <td><strong>Earth</strong></td>
+        <td><strong>Moon</strong></td>
+        <td><strong>Mars</strong></td>
+        <td><strong>Uranus</strong></td>
+        <td><strong>Jupiter</strong></td>
+        <td><strong>Pluto</strong></td>
+        <td><strong>Saturn</strong></td>
+        <td><strong>Mercury</strong></td>
+      </tr>
+      <tr>
+        <td>$35000.0</strong></td>
+        <td>$44500.0</strong></td>
+        <td>$15000.0</strong></td>
+        <td>$355600.0</strong></td>
+        <td>$3451.0</strong></td>
+        <td>$2344.0</strong></td>
+        <td>$1000.0</strong></td>
+        <td>$80000.0</strong></td>
+      </tr>
+      </table>
+
+
+
+
+        </div>
+
+
+
+
+<div class="wrapper">
+
+
+<div class="middleleft">
+
+<br><br>
+
+
+      <table style="width:100%">
+        <tr>
+          <td><strong>Pilot</strong></td>
+          <td><strong>Destination</strong></td>
+          <td><strong>Crates</strong></td>
+          <td><strong>Money</strong></td>
+        </tr>
+
+        
+        <tr>
+          <td>Fry</td>
+          <td>Earth</td>
+          <td>150.0</td>
+          <td>$30000.0</td>
+        </tr>
+        
+        <tr>
+          <td>Fry</td>
+          <td>Earth</td>
+          <td>34.0</td>
+          <td>$5000.0</td>
+        </tr>
+        
+
+        
+        <tr>
+          <td>Amy</td>
+          <td>Mars</td>
+          <td>999.0</td>
+          <td>$15000.0</td>
+        </tr>
+        
+
+        
+        <tr>
+          <td>Bender</td>
+          <td>Uranus</td>
+          <td>1000.0</td>
+          <td>$345600.0</td>
+        </tr>
+        
+        <tr>
+          <td>Bender</td>
+          <td>Uranus</td>
+          <td>66.0</td>
+          <td>$10000.0</td>
+        </tr>
+        
+
+        
+        <tr>
+          <td>Leela</td>
+          <td>Moon</td>
+          <td>33.0</td>
+          <td>$44500.0</td>
+        </tr>
+        
+        <tr>
+          <td>Leela</td>
+          <td>Jupiter</td>
+          <td>10.0</td>
+          <td>$3451.0</td>
+        </tr>
+        
+        <tr>
+          <td>Leela</td>
+          <td>Pluto</td>
+          <td>100.0</td>
+          <td>$2344.0</td>
+        </tr>
+        
+        <tr>
+          <td>Leela</td>
+          <td>Saturn</td>
+          <td>26.0</td>
+          <td>$1000.0</td>
+        </tr>
+        
+        <tr>
+          <td>Leela</td>
+          <td>Mercury</td>
+          <td>36.0</td>
+          <td>$80000.0</td>
+        </tr>
+        
+
+      </table>
+      <h3>Pilot Bonuses (10% of Sales)</h3>
+      <li>Fry made 2 trips and made $3500.0 as a bonus.</li><br>
+      <li>Amy made 1 trips and made $1500.0 as a bonus.</li><br>
+      <li>Bender made 2 trips and made $35560.0 as a bonus.</li><br>
+      <li>Leela made 5 trips and made $13129.5 as a bonus.</li><br>
+
+
+
+
+    </div>
+
+
+
+
+<div class="middleright">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Pilot', 'Revenue Generated'],
+          ['Fry',     35000.0],
+          ['Amy',      15000.0],
+          ['Bender',  355600.0],
+          ['Leela', 131295.0],
+
+        ]);
+
+        var options = {
+          title: 'Pilot Revenue Generated'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+
+    <div id="piechart" style="width: 100%; height: 500px;"></div>
+  </div>
+
+
+
+</div>
+
+<div class="bottom">
+
+        <img src="http://1.bp.blogspot.com/-qaC9KUJcA40/UAnrkJXm4WI/AAAAAAAABWs/Jn_xdxJYHCY/s1600/Animated_Zoidberg.gif">
+
+
+
+      </div>
+
+      </div>
+
+
+  </body>
+</html>

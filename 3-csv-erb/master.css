@@ -1,0 +1,71 @@
+.top{
+  border: 2px solid black;
+width: 100%;
+
+text-align: center;
+align-items: center;
+}
+
+.whole{
+  background-image: url(http://www.imgbase.info/images/safe-wallpapers/cartoons/futurama/19075_futurama_planet_express.jpg);
+  width:1000px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  width:1000px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.middleleft{
+  width: 50%;
+  height: 500px;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.middleright{
+  width: 50%;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  height: 500px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+
+
+table {
+	font-family: arial;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table tr td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
